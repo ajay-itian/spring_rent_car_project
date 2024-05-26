@@ -1,0 +1,8 @@
+package com.ajay.ovsm.jwt;
+
+import org.springframework.stereotype.Service;
+
+@Service
+public class JWTUtil {
+
+}

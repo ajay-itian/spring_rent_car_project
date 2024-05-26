@@ -1,0 +1,5 @@
+package com.ajay.repositotries;
+
+public class UserRepo {
+
+}

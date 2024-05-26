@@ -1,0 +1,28 @@
+package com.ajay.ovsm.jwt;
+
+import org.springframework.stereotype.Service;
+
+import io.jsonwebtoken.Claims;
+
+@Service
+public class JWTUtil 
+{
+	
+	
+		private String secret="mcadays";
+		
+		
+		public <T> T extractClamis(String token,Function<Claims,T> claimsresolver)
+		{
+			
+			
+			final Claims claims=
+		}
+		
+		
+		public Claims extractAllClaims(String token)
+		{
+			
+		}
+
+}

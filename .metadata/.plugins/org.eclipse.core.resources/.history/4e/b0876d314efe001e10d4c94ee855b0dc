@@ -1,0 +1,29 @@
+package com.ajay.ovsm.serviceimpl;
+
+import java.util.Map;
+
+import org.springframework.http.ResponseEntity;
+import org.springframework.stereotype.Service;
+
+import com.ajay.ovsm.service.UserService;
+
+import lombok.extern.slf4j.Slf4j;
+
+
+@Slf4j
+@Service
+public class UserServiceImpl implements UserService{
+
+	@Override
+	public ResponseEntity<String> signup(Map<String, String> requestmap) {
+		
+	}
+	
+	
+	private boolean validateSignupMap(Map<String, String>requestmap)
+	{
+		if(requestmap.containsKey("name")&&requestmap.containsKey("contactNumber")
+		&& requestmap.containsKey("email")&&requestmap.containsKey("password"))
+	}
+	
+}

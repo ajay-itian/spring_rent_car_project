@@ -1,0 +1,7 @@
+package com.ajay.repositotries;
+
+import org.springframework.data.jpa.repository.support.JpaRepositoryFactory;
+
+public class UserRepo extends JpaRepository<>{
+
+}

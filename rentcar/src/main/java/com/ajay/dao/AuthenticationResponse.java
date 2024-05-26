@@ -1,0 +1,15 @@
+package com.ajay.dao;
+
+import com.ajay.enums.UserRole;
+
+import lombok.Data;
+
+@Data
+public class AuthenticationResponse {
+
+	
+	private String jwt;
+	private UserRole userRole;
+	private Long userid;
+	
+}

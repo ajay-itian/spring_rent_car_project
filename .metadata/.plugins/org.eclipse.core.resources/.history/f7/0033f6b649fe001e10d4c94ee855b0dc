@@ -1,0 +1,5 @@
+package com.ajay.ovsm.serviceimpl;
+
+public class UserServiceImpl {
+
+}

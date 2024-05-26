@@ -1,0 +1,7 @@
+package com.ajay.ovsm.jwt;
+
+import org.springframework.security.core.userdetails.UserDetailsService;
+
+public class CustomerUserDetailsService implements UserDetailsService{
+
+}

@@ -1,0 +1,31 @@
+package com.ajay.ovsm.jwt;
+
+import java.util.Objects;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.core.userdetails.UserDetails;
+import org.springframework.security.core.userdetails.UserDetailsService;
+import org.springframework.security.core.userdetails.UsernameNotFoundException;
+
+import com.ajay.ovsm.dao.UserDao;
+
+public class CustomerUserDetailsService implements UserDetailsService{
+
+	
+	@Autowired
+	UserDao userDao;
+	
+	
+	private com.ajay.ovsm.model.User userDetails;
+	
+	@Override
+	public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
+		// TODO Auto-generated method stub
+		
+		
+		userDetails=userDao.findByEmail(username);
+		
+		if(!Objects.isNull(userDetails))
+	}
+
+}

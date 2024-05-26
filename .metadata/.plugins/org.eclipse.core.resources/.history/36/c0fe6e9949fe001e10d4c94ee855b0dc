@@ -1,0 +1,5 @@
+package com.ajay.ovsm.restimpl;
+
+public class UserRestImpl {
+
+}
