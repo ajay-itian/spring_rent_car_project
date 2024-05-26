@@ -1,7 +1,0 @@
-package com.ajay.ovsm.dao;
-
-import org.springframework.boot.autoconfigure.data.jpa.JpaRepositoriesAutoConfiguration;
-
-public interface UserDao extends {
-
-}

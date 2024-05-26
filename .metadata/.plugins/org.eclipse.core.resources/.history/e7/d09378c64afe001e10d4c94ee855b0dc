@@ -1,7 +1,0 @@
-package com.ajay.ovsm.restimpl;
-
-import com.ajay.ovsm.rest.UserRest;
-
-public class UserRestImpl implements UserRest{
-
-}

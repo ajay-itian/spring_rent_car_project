@@ -1,5 +1,0 @@
-package com.ajay.ovsm.service;
-
-public interface UserService {
-
-}

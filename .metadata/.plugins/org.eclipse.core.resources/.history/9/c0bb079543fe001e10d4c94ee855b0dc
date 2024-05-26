@@ -1,8 +1,0 @@
-package com.ajay.ovsm.model;
-
-import org.springframework.boot.autoconfigure.domain.EntityScan;
-
-@Entity
-public class User {
-
-}

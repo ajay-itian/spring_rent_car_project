@@ -1,7 +1,0 @@
-package com.ajay.ovsm.serviceimpl;
-
-import com.ajay.ovsm.service.UserService;
-
-public class UserServiceImpl implements UserService{
-
-}
